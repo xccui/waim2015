@@ -1,13 +1,13 @@
 body{
-		margin:auto;
-		font-family: Verdana, Tahoma, Arial, sans-serif;
+	margin:auto;
+	font-family: Verdana, Tahoma, Arial, sans-serif;
 }
 a{
 	font-size:.9em;
 }
 a{
 	text-decoration:none;
-	color:#3399CC	
+	color:#3399CC
 }
 a:visited.tbb{
 	color:#CCC;
@@ -18,8 +18,17 @@ a.tbb{
 a:visited{
 	color:#3399CC;
 }
-a:hover{		
+a:hover{
 	color:#003366;
+}
+a.img:hover{
+	border:none;
+}
+span.b{
+	font-weight:bold;
+}
+div.clear{
+	clear:both;
 }
 ul{
 	margin-top:5px;
