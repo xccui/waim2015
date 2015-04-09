@@ -34,3 +34,17 @@ ul{
 	margin-top:5px;
 	list-style-type:circle;
 }
+table.ctable{
+   text-align:center;
+   border-right:1px solid ;
+   border-bottom:1px solid ;
+   margin-top:20px;
+}
+table.ctable thead{
+	background-color:#CCC;
+}
+table.ctable td{
+	border-left:1px solid ;
+	border-top:1px solid ;
+	padding:2px 10px 2px 10px;
+} 
