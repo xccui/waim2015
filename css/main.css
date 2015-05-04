@@ -48,3 +48,29 @@ table.ctable td{
 	border-top:1px solid ;
 	padding:2px 10px 2px 10px;
 } 
+table.ltable{
+   text-align:left;
+   border-right:1px solid ;
+   border-bottom:1px solid ;
+   margin-top:20px;
+}
+table.ltable thead{
+	background-color:#CCC;
+}
+table.ltable thead td{
+	padding:10px;
+	text-align:center;
+	font-weight:bold;
+}
+table.ltable td{
+	border-left:1px solid ;
+	border-top:1px solid ;
+	padding:5px 10px 5px 10px;
+} 
+table.ltable td.k{
+	width:90px;
+	text-align:center;
+}
+table.ltable td.v{
+	width:300px;
+}

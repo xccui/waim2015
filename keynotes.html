@@ -43,21 +43,36 @@
 					<a class="img" href="http://www.is.ethz.ch/people/donaldk" target="_blank"><img src="image/keynote/Donald_Kossmann.jpg"></a>
 				</div>
 				<a class="b" href="http://www.is.ethz.ch/people/donaldk" target="_blank"><span class="b">Donald Kossmann</span></a><br/>
-				Professor<br/>
-				Institute of Information Systems<br/>
-				ETH Zurich(Swiss Federal Institute of Technology)<br/>
-				Swiss
+				Principal Researcher<br/>
+				Microsoft Research in Redmond<br/>
+				USA
 				<div class="clear"></div>
 				<p>
-				<span class="b">Title:TBD</span>
+				<span class="b">Title:Cipherbase: End-to-end Encryption for SQL</span>
 				</p>
 				<p>
 				<span class="b">Abstract:</span></br>
-				TBD
+				This talk presens the design of the Cipherbase system.
+				Cipherbase was designed to protect "data-in-use". That is, data
+				remains encrypted even when it is processed. To this end, Cipherbase
+				features a novel fine-grained architecture that farms out all
+				computations on encrypted data to an FPGA. The talk provides the
+				motivation and design space for systems like Cipherbase and presents
+				the results of recent performance experiments with the Cipherbase
+				prototype developed at Microsoft Research.
 				</p>
 				<p>
 				<span class="b">Short Biography:</span></br>
-			   Donald Kossmann is a professor for Computer Science at ETH Zurich (Switzerland). He received his MS in 1991 from the University of Karlsruhe and completed his PhD in 1995 at the Technical University of Aachen. After that, he held positions at the University of Maryland, the IBM Almaden Research Center, the University of Passau, the Technical University of Munich, and the University of Heidelberg. He is a former associate editor of ACM Transactions on Databases and ACM Transactions on Internet Technology. He is an ACM fellow, a member of the board of trustees of the VLDB endowment, and was the program committee chair of the ACM SIGMOD Conf., 2009. He is a co-founder of i-TV-T (1998), XQRL Inc. (acquired by BEA in 2002), and 28msec Inc. (2007). His research interests lie in the area of databases and information systems. 
+				Donald Kossmann is a Principal Researcher at Microsoft Research
+				in Redmond.  Before that, he was professor for Computer Science at ETH
+				Zurich (Switzerland) where he is currently on leave.  He received his
+				MS from the University of Karlsruhe and completed his PhD at the
+				Technical University of Aachen. He is an ACM fellow.  He was member of
+				the board of trustees of the VLDB endowment from 2006-2011 and the
+				chair of the Executive Committee of ACM SIGMOD.  He is a co-founder of
+				i-TV-T (1998), XQRL Inc. (acquired by BEA in 2002), 28msec Inc.
+				(2006), and Teralytics (2010). His research interests lie in the area
+				of databases and information systems.
 				</p>
 			</div>
 
@@ -72,11 +87,28 @@
 				UK
 				<div class="clear"></div>
 				<p>
-				<span class="b">Title:TBD</span>
+				<span class="b">Title:Towards a Unified Platform for Semantically-related Data</span>
 				</p>
 				<p>
 				<span class="b">Abstract:</span></br>
-				TBD
+				Several research topic within data management and knowledge representation,
+				deal with answering a query by making use of semantic information about the 
+				data.  Examples include the semantic web, data integration, and semantic query 
+				optimization.
+				<br/>
+				This talk will look  at the goal of a unified platform for answering queries
+				that subsumes all of these problems. 
+				The vision is to support distributed datasources connected
+				by integrity constraints, supporting a wide variety of access models, 
+				cost models, data models, constraint languages, and query languages.
+				<br/>
+				We will outline a bit of the history of this vision,
+				and then describe one recent step towards this goal, embodied in the 
+				PDQ (Proof-driven querying) system at Oxford. 
+				PDQ supports a rich language for constraints and queries, along with the ability to describe several kinds of interfaces for data access. 
+				<br/>
+				This includes work with Balder ten Cate, Julien Leblay, Efi Tsamoura,
+				and Michael Vanden Boom.
 				</p>
 				<p>
 				<span class="b">Short Biography:</span></br>
@@ -95,15 +127,40 @@
 				USA
 				<div class="clear"></div>
 				<p>
-				<span class="b">Title:TBD</span>
+				<span class="b">Title: Data Cleaning, Linking, and Integration: From Raw Data to Actionable Information </span>
 				</p>
 				<p>
 				<span class="b">Abstract:</span></br>
-				TBD
+				Management and policy decisions are typically made based on
+				information that is derived from datasets.	To prepare datasets so
+				that they are ready to be analyzed requires a number of tedious and,
+				oftentimes, manual data curation activities, such as data cleaning,
+				linking, and integration with other datasets.
+				<br/>
+				In this talk, I will present some recent work on these three
+				activities with particular emphasis on a recent work where we propose
+				a query-oriented system for cleaning data with oracles.  Unlike prior
+				data cleaning techniques where the focus has largely been to correct
+				all existing data upfront, our framework is driven by the correctness
+				of query results, cleans data only as needed, and also permits one to
+				augment the underlying dataset through the identification of missing
+				tuples in the result of a query.  Incorrect/missing tuples are
+				removed/added to the result of a query through edits that are applied
+				to the underlying dataset, where the edits are derived by interacting
+				with domain experts which we model as oracle crowds.
+				<br/>
+				We show that the problem of determining minimal interactions with
+				oracle crowds to derive database edits for removing/adding
+				incorrect/missing tuples to the result of a query is NP-hard in
+				general and present heuristic algorithms that interact with oracle
+				crowds to progressively clean the dataset, as needed.  I will also
+				present recent work on temporal record linkage and integration that
+				allows one to identify which facts are temporally related and how they
+				can be meaningfully combined together.
 				</p>
 				<p>
 				<span class="b">Short Biography:</span></br>
-Wang-Chiew Tan is a Professor of Computer Science at University of California, Santa Cruz. She received her B.Sc. (First Class) in Computer Science from the National University of Singapore and her Ph.D. in Computer Science from the University of Pennsylvania. Her research interests are in general area of data management, with emphasis on topics such as (big) data integration and exchange, data provenance, crowdsourcing, and scientific databases. She is the recipient of an NSF CAREER award, a Google Faculty Award, and an IBM Faculty Award. She is the co-author of three best papers, a co-recipient of the 2014 ACM PODS Alberto O. Mendelzon Test-of-Time Award, and several of her publications have been invited to and appeared in special issues for selected papers. She has consistently served on the program committees of top database conferences, she was the program committee chair of the International Conference on Database Theory (ICDT) 2013, and she is currently on the VLDB Board of Trustees.
+				Wang-Chiew Tan is a Professor of Computer Science at University of California, Santa Cruz. She received her B.Sc. (First Class) in Computer Science from theNational University of Singapore and her Ph.D. in Computer Science from the University of Pennsylvania. Her research interests is in general area of data management, with emphasis on topics such as (big) data integration and exchange, data provenance, crowdsourcing, and scientific databases. She is the recipient of an NSF CAREER award, a Google Faculty Award, and an IBM Faculty Award. She is the co-author of four best papers, a co-recipient of the 2014 ACM PODS Alberto O. Mendelzon Test-of-Time Award, and several of her publications have been invited to and appeared in special issues for selected papers. She served on the program committees of top database conferences. She was the program committee chair of the International Conference on Database Theory (ICDT) 2013, she is currently on the VLDB Board of Trustees, and she is the 2016 ACM Principles of Database Systems (PODS) program committee chair.
 				</p>
 			</div>
 		</div>
