@@ -34,6 +34,11 @@ ul{
 	margin-top:5px;
 	list-style-type:circle;
 }
+ul.index{
+	margin-top:20px;
+	list-style-type:square;
+	font-size:1.2em;
+}
 table.ctable{
    text-align:center;
    border-right:1px solid ;
